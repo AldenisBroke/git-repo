@@ -1,0 +1,196 @@
+/***** BASE STYLES *****/
+
+body { 
+font-family: 'Montserrat', sans-serif;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+
+
+/***** GRID *****/
+
+.topsection {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4, {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+h2 {
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+h3 {
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+h4 {
+    font-size: 12px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0px 30px;
+}
+
+header {
+    height: 110px;
+    margin: 0;
+    border-bottom: 3px solid #77a466;
+    width: 1200px;
+
+}
+
+header h1 {
+    float: left;
+    margin: 0px;
+    padding: 38px 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 10px;
+    display: inline;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #77a466;
+}
+
+.welcome,
+.bottom-section {
+    margin: 0px;
+    clear: both;
+}
+
+.image {
+    height: auto;
+    float: left;
+}
+
+.image img {
+    border-bottom: 3px solid #77a466;
+}
+
+.welcome-title {
+    height: auto;
+    float: left;
+}
+
+.welcome-title h3 {
+    text-align: left;
+    color: #77a466;
+    padding: 5px 0;
+}
+
+.welcome-title p {
+    padding: 0px;
+    font-size: 16px;
+    line-height: 25px;
+    width: 1200px;
+}
+
+.specials,
+.reviews,
+.contact {
+    width: 399px;
+    height: auto;
+    float: left;
+    border-top: 1px solid #eee;
+}
+
+.specials {
+    padding: 10px 0;
+}
+
+.reviews {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.reviews h4,
+.contact h4{
+    padding: 10px 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #77a466;
+}
+
+.reviews {
+    color: #333;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.contact {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer {
+    height: 50px;
+    border-top: 3px solid #eee;
+    margin: 0px auto;
+    clear: both;
+    text-align: center;
+}
+
+footer span {
+    text-transform: lowercase;
+    color: #77a466;
+    font-size: 18px;
+}
+
+
+    
